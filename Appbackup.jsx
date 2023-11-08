@@ -10,7 +10,7 @@ function App() {
   const [index, setIndex] = useState(null);
   const [days, setDays] = useState([]);
   const [previousCities, setPreviousCities] = useState([]);
-  //const url = put you api
+  const url = "put you api"
 
   //let tmp = data.list[index].dt_txt.slice(8, 10);
   //const tmp = data.list[index].dt_txt.slice(8, 10);
