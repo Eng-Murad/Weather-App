@@ -11,6 +11,7 @@ function App() {
   const [days, setDays] = useState([]);
   const [previousCities, setPreviousCities] = useState([]);
   //const url = `https://api.openweathermap.org/data/2.5/weather?&q=${location}&units=imperial&appid=0cea07e52143f44c4126cfadaa15cd14`
+  // const url = `https://api.openweathermap.org/data/2.5/forecast?q=${location}&APPID=0cea07e52143f44c4126cfadaa15cd14`;
   const url = `https://api.openweathermap.org/data/2.5/forecast?q=${location}&APPID=0cea07e52143f44c4126cfadaa15cd14`;
 
   //let tmp = data.list[index].dt_txt.slice(8, 10);
