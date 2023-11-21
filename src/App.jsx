@@ -175,7 +175,7 @@ function App() {
                     <Card.Text>{(day.temp - 273.15).toFixed()}°C</Card.Text>
                     <Card.Text>
                     <img
-                              src={(`../public/images/${day.icon}.svg`)}
+                              src={(`./images/${day.icon}.svg`)}
                               alt='sun'
                             />
                     </Card.Text>
